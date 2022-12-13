@@ -1,0 +1,1052 @@
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/hush.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/hush.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/msh.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/msh.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/cmdedit.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/cmdedit.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/../shell/cmdedit.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/../shell/cmdedit.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/tab/completion.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/username/completion.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/getusername/and/homedir.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/history.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/nonprintable/inverse/put.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/savehistory.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/lash.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/lash.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/lash/pipe/n/redirects.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/lash/job/control.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/ash.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/shell/ash.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/job/control.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/alias.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/optimize/for/size.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/math/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/cmdcmd.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/getopts.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/mail.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/math/support/64.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ash/random/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/savehistory.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/editing.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/command/tab/completion.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/delgroup.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/delgroup.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/deluser.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/adduser.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/adduser.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/addgroup.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/sulogin.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/sulogin.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/addgroup.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/addgroup.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/adduser.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/getty.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/getty.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/syslogd.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/u/w/tmp.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/login.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/login.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/u/w/tmp.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/securetty.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/wheel/group.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/su.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/su.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/u/w/tmp.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/delline.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/delline.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/deluser.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/deluser.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/passwd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/passwd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/vlock.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/loginutils/vlock.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getgrgid.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getgrgid.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/obscure.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/obscure.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/default_error_retval.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/default_error_retval.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/recursive_action.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/recursive_action.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/kernel_version.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/kernel_version.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_strncpy.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_strncpy.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xreadlink.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xreadlink.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/copy_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/copy_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/preserve/hardlinks.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xconnect.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xconnect.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/full_write.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/full_write.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/change_identity.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/change_identity.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/human_readable.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/human_readable.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getpwuid.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getpwuid.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/module_syscalls.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/module_syscalls.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/mtab_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/mtab_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mtab/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mtab/filename.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/pwd2spwd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/pwd2spwd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/shadow_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/shadow_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/getopt_ulflags.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/getopt_ulflags.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/read_package_field.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/read_package_field.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/copyfd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/copyfd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_write.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_write.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/speed_table.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/speed_table.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/fclose_nonstdin.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/fclose_nonstdin.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/last_char_is.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/last_char_is.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/concat_subpath_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/concat_subpath_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getpwnam.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getpwnam.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vdprintf.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vdprintf.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/bb_asprintf.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/bb_asprintf.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/messages.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/messages.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/fgets_str.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/fgets_str.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/error_msg_and_die.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/error_msg_and_die.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/device_open.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/device_open.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_msg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_msg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/restricted_shell.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/restricted_shell.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/setup_environment.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/setup_environment.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/loop.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/loop.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/create_icmp6_socket.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/create_icmp6_socket.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/wfopen.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/wfopen.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getug.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getug.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/printf.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/printf.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xregcomp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xregcomp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/get_terminal_width_height.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/get_terminal_width_height.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/autowidth.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/error_msg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/error_msg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/print_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/print_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/warn_ignoring_args.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/warn_ignoring_args.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/wfopen_input.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/wfopen_input.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/find_pid_by_name.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/find_pid_by_name.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/qmodule.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/qmodule.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/inet_common.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/inet_common.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/verror_msg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/verror_msg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vperror_msg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vperror_msg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_msg_and_die.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_msg_and_die.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/run_parts.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/run_parts.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/get_line_from_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/get_line_from_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/concat_path_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/concat_path_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/login.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/login.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/skip_whitespace.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/skip_whitespace.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgetcwd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgetcwd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_strtol.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_strtol.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/herror_msg_and_die.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/herror_msg_and_die.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/correct_password.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/correct_password.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/shadowpasswds.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgethostbyname.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgethostbyname.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/get_console.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/get_console.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/interface.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/interface.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgethostbyname2.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgethostbyname2.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/run_shell.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/run_shell.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/find_mount_point.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/find_mount_point.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/find_root_device.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/find_root_device.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/devfs.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_nomsg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_nomsg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/fflush_stdout_and_exit.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/fflush_stdout_and_exit.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xfuncs.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xfuncs.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/hash_fd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/hash_fd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/sha1sum.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/md5sum.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/dump.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/dump.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/dump.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/dump.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vfork_daemon_rexec.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vfork_daemon_rexec.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/herror_msg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/herror_msg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/process_escape_sequence.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/process_escape_sequence.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/procps.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/procps.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/llist_add_to.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/llist_add_to.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/create_icmp_socket.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/create_icmp_socket.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/trim.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/trim.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/make_directory.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/make_directory.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vherror_msg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/vherror_msg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_read.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/safe_read.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/pw_encrypt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/pw_encrypt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sha1/passwords.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/mtab.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/mtab.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/full_read.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/full_read.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/parse_mode.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/parse_mode.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/ask_confirmation.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/ask_confirmation.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/remove_file.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/remove_file.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/syscalls.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/syscalls.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgetularg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgetularg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgetlarg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/xgetlarg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/simplify_path.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/simplify_path.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/parse_number.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/parse_number.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_nomsg_and_die.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/perror_nomsg_and_die.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/chomp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/chomp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getgrnam.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/my_getgrnam.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/isdirectory.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/isdirectory.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/inode_hash.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libbb/inode_hash.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/syslogd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/syslogd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/../../lib/libtcapi.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/../../lib/libtcapi.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/rotate/logfile.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/remote/log.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipc/syslog.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipc/syslog/buffer/size.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/klogd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/klogd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/logread.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/logread.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/logread/reduced/locking.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/logger.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/sysklogd/logger.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/syslogd.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/touch.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/touch.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uuencode.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uuencode.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cat.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cat.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/yes.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/yes.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/wc.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/wc.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/logname.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/logname.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cal.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cal.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/hostid.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/hostid.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/expr.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/expr.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/date.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/date.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/date/isofmt.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uudecode.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uudecode.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chmod.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chmod.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/dos2unix.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/dos2unix.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mkdir.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mkdir.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/true.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/true.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chroot.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chroot.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mkfifo.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mkfifo.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tty.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tty.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tail.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tail.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/tail.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/rmdir.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/rmdir.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/seq.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/seq.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/sleep.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/sleep.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/sleep.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/id.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/id.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tr.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tr.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/ln.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/ln.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tee.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/tee.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tee/use/block/io.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uniq.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uniq.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/watch.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/watch.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cut.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cut.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/dd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/dd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/printf.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/printf.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/length.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/length.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/test.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/test.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/test/64.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/od.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/od.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/dump.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/dump.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/echo.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/echo.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/echo.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cmp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cmp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/pwd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/pwd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mv.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mv.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uname.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/uname.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/cp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/libcoreutils/cp_mv_stat.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/libcoreutils/cp_mv_stat.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/libcoreutils/xgetoptfile_sort_uniq.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/libcoreutils/xgetoptfile_sort_uniq.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/libcoreutils/getopt_mk_fifo_nod.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/libcoreutils/getopt_mk_fifo_nod.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/basename.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/basename.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chgrp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chgrp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/usleep.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/usleep.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chown.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/chown.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/du.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/du.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/human/readable.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/du/defalt/blocksize/1k.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/who.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/who.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/install.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/install.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/env.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/env.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/sort.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/sort.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/md5_sha1_sum.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/md5_sha1_sum.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/md5/sha1/sum/check.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/md5sum.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/sha1sum.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/fold.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/fold.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/sync.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/sync.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/stty.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/stty.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/df.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/df.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/human/readable.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/realpath.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/realpath.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/head.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/head.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/head.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/false.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/false.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/rm.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/rm.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/whoami.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/whoami.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/dirname.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/dirname.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mknod.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/mknod.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/ls.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/coreutils/ls.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/timestamps.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/sortfiles.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/followlinks.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/human/readable.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/filetypes.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/color.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/autowidth.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/recursive.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ls/username.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/patch.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/patch.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/awk.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/awk.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/awk/math.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/vi.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/vi.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/optimize/cursor.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/use/signals.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/crashme.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/dot/cmd.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/yankmark.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/readonly.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/search.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/colon.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/win/resize.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/setopts.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/vi/set.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/sed.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/editors/sed.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/dumpkmap.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/dumpkmap.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/loadkmap.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/loadkmap.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/deallocvt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/deallocvt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/clear.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/clear.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/reset.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/reset.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/chvt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/chvt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/setkeycodes.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/setkeycodes.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/loadfont.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/loadfont.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/openvt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/console-tools/openvt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/dc.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/dc.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/hdparm.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/hdparm.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hdparm/get/identity.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hdparm/hdio/getset/dma.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hdparm/hdio/unregister/hwif.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hdparm/hdio/scan/hwif.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hdparm/hdio/tristate/hwif.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hdparm/hdio/drive/reset.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/makedevs.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/makedevs.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/time.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/time.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/mt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/mt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/adjtimex.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/adjtimex.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/crond.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/crond.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/crond/call/sendmail.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/last.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/last.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/devfsd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/devfsd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/devfsd/modload.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/devfsd/verbose.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/debug.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/devfsd/fg/np.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/file.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/modules/devfs.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/rx.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/rx.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/strings.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/strings.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/taskset.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/taskset.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/watchdog.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/watchdog.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/crontab.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/miscutils/crontab.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/decompress_unzip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/decompress_unzip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/archive_xread_all_eof.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/archive_xread_all_eof.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_list.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_list.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/decompress_bunzip2.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/decompress_bunzip2.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/seek_by_jump.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/seek_by_jump.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/unarchive/tape.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_align.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_align.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/init_handle.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/init_handle.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/header_verbose_list.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/header_verbose_list.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/decompress_uncompress.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/decompress_uncompress.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/check_header_gzip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/check_header_gzip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_all.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_all.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_extract_to_stdout.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_extract_to_stdout.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_cpio.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_cpio.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/archive_xread_all.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/archive_xread_all.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/header_skip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/header_skip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_tar_bz2.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_tar_bz2.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/unpack_ar_archive.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/unpack_ar_archive.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_extract_to_buffer.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_extract_to_buffer.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_reject_list.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_reject_list.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_tar_gz.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_tar_gz.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/open_transformer.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/open_transformer.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_extract_all.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_extract_all.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/header_list.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/header_list.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_skip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/data_skip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/find_list_entry.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/find_list_entry.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_tar.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_tar.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/gnu/extensions.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/oldgnu/compatability.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_list_reassign.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/filter_accept_list_reassign.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/deb/tar/bz2.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/seek_by_char.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/seek_by_char.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_ar.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/libunarchive/get_header_ar.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ar/long/filenames.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/bunzip2.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/bunzip2.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/ar.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/ar.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/tar.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/tar.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/create.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/from.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/gzip.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/compress.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/bzip2.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tar/long/options.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/unzip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/unzip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/cpio.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/cpio.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/uncompress.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/uncompress.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/rpm2cpio.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/rpm2cpio.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/rpm.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/rpm.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/gunzip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/gunzip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/gunzip/uncompress.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/dpkg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/dpkg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/deb/tar/bz2.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/dpkg_deb.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/dpkg_deb.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/unarchive.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/deb/tar/bz2.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/gzip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/archival/gzip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/gunzip.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/readlink.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/readlink.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/mktemp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/mktemp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/start_stop_daemon.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/start_stop_daemon.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/pipe_progress.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/pipe_progress.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/which.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/which.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/run_parts.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/debianutils/run_parts.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/modprobe.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/modprobe.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/2/6/modules.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/rmmod.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/rmmod.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/2/6/modules.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/query/module/interface.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/insmod.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/insmod.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/2/4/modules.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/2/6/modules.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/insmod/loadinkmem.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/insmod/version/checking.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/use/list.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/list/archtype.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/use/single.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/use/plt/entries.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/use/got/entries.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/use/plt/list.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/got/entry/size.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/plt/entry/size.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/check/tainted/module.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/insmod/ksymoops/symbols.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/insmod/load/map.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/insmod/load/map/full.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/lsmod.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/modutils/lsmod.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/check/tainted/module.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/query/module/interface.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/mount.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/mount.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/nfsmount.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mount/loop.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mtab/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/dmesg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/dmesg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fdformat.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fdformat.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/mkfs_minix.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/mkfs_minix.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/minix2.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/rdate.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/rdate.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/hexdump.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/hexdump.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/dump.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/dump.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/nfsmount.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/nfsmount.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/swaponoff.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/swaponoff.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/losetup.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/losetup.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/hwclock.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/hwclock.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/hwclock/longoptions.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/mkswap.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/mkswap.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/pivot_root.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/pivot_root.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fdflush.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fdflush.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fsck_minix.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fsck_minix.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/minix2.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fbset.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fbset.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fbset/fancy.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fbset/readmode.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/freeramdisk.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/freeramdisk.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fdisk.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/fdisk.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sun/label.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/sgi/label.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/aix/label.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/osf/label.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fdisk/writable.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fdisk/advanced.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/weird/partition/types.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fdisk/blksize.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/umount.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/umount.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mount/force.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mount/loop.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/mtab/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/more.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/more.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/use/termios.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/getopt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/util-linux/getopt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/nslookup.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/nslookup.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/wget.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/wget.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/wget/statusbar.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/wget/authentication.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/wget/ip6/literal.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/nameif.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/nameif.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/httpd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/httpd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/lfs.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/usage/from/inetd/only.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/basic/auth.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/cgi.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/config/with/mime/types.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/encode/url/str.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/set/remote/port/to/env.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/auth/md5.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/reload/config/sighup.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/httpd/setuid.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/arp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/arp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ftpgetput.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ftpgetput.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ftpget.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/ftpput.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ipneigh.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ipneigh.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/nc.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/nc.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/iptunnel.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/iptunnel.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/telnetd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/telnetd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/login.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/telnetd/inetd.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/devpts.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/netstat.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/netstat.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/route.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/telnet.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/telnet.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/telnet/ttype.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/telnet/autologin.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/autowidth.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/iplink.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/iplink.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/hostname.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/hostname.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ipaddr.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ipaddr.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/traceroute.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/traceroute.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/traceroute/verbose.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/traceroute.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/traceroute/so/debug.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ipcalc.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ipcalc.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipcalc/fancy.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/arping.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/arping.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ifconfig.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ifconfig.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifconfig/slip.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifconfig/broadcast/plus.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifconfig/hw.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifconfig/memstart/ioaddr/irq.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifconfig/status.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/route.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/route.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/inet_common.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ipv6.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ping6.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ping6.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/ping6.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/ping.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/inetd.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/inetd.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/inetd/support/biltin/echo.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/inetd/support/biltin/discard.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/inetd/support/biltin/time.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/inetd/support/biltin/daytime.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/inetd/support/biltin/chargen.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ifupdown.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ifupdown.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifupdown/mapping.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifupdown/ip.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifupdown/ipx.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifupdown/ipv6.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ifupdown/ipv4.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/iproute.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/iproute.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ping.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ping.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/fancy/ping.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/ll_addr.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/ll_addr.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/iptunnel.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/iptunnel.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/ip_parse_common_args.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/ip_parse_common_args.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/ipaddress.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/ipaddress.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/iplink.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/iplink.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/libnetlink.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/libnetlink.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/utils.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/utils.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/iproute.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/libiproute/iproute.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ip.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/ip.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ip/address.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ip/route.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ip/link.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ip/tunnel.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/ip/neigh.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/tftp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/tftp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tftp/blocksize.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tftp/debug.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tftp/get.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/tftp/put.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/vconfig.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/networking/vconfig.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/applets/applets.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/applets/applets.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/usage.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/usage.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/applets.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/applets.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/applets.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/applets.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/suid.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/suid/config.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/suid/config/quiet.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/file.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/applets/busybox.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/applets/busybox.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/locale/support.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/installer.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/init.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/autowidth.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/pidof.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/pidof.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/sysctl.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/sysctl.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/free.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/free.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/ps.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/ps.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/kill.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/kill.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/killall.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/renice.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/renice.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/top.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/top.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/use/termios.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/selinux.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/uptime.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/procps/uptime.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/findutils/find.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/findutils/find.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/find/type.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/find/perm.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/find/mtime.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/find/xdev.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/find/newer.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/find/inum.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/findutils/grep.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/findutils/grep.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/grep/context.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/grep/egrep/alias.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/findutils/xargs.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/findutils/xargs.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/xargs/support/confirmation.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/xargs/support/quotes.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/xargs/support/termopt.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/xargs/support/zero/term.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/clean/up.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libpwdgrp/pwd_grp.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/libpwdgrp/pwd_grp.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/pwd_.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/grp_.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/shadow_.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/shadow_.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/reboot.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/reboot.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/init.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/mesg.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/mesg.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/libbb.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/halt.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/halt.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/init.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/init_shared.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/init_shared.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/initrd.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/init.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/poweroff.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/poweroff.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/init.h)
+/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/init.o: /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/init/init.c \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/busybox.h) \
+ /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/../../mtd/tc_partition.h $(dep_/home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/include/../../mtd/tc_partition.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/syslogd.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/init/coredumps.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/extra/quiet.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/use/inittab.h) \
+   $(wildcard /home/alex/n14u/dsl-n14u_gpl/apps/public/busybox-1.00/config/feature/initrd.h)

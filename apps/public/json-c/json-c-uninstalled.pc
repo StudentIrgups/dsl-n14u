@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=
+libdir=/home/alex/n14u/dsl-n14u_gpl/apps/public/json-c
+includedir=/home/alex/n14u/dsl-n14u_gpl/apps/public/json-c
+
+Name: json
+Description: JSON implementation in C
+Version: 0.12
+Requires:
+Libs:  -L/home/alex/n14u/dsl-n14u_gpl/apps/public/json-c -ljson-c
+Cflags: -I/home/alex/n14u/dsl-n14u_gpl/apps/public/json-c

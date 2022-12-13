@@ -1,0 +1,1 @@
+cmd_arch/mips/trendchip/tc3162/built-in.o :=  mips-linux-uclibc-ld  -m elf32btsmip  -r -o arch/mips/trendchip/tc3162/built-in.o arch/mips/trendchip/tc3162/prom.o arch/mips/trendchip/tc3162/setup.o arch/mips/trendchip/tc3162/irq.o arch/mips/trendchip/tc3162/tcwdog.o arch/mips/trendchip/tc3162/time2.o arch/mips/trendchip/tc3162/malta_smtc.o

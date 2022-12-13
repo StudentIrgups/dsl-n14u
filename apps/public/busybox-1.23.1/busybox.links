@@ -1,0 +1,16 @@
+/bin/gunzip
+/bin/zcat
+/bin/gzip
+/bin/shuf
+/bin/unlink
+/bin/grep
+/bin/egrep
+/bin/fgrep
+/bin/fatattr
+/sbin/ether-wake
+/bin/flock
+/bin/nice
+/bin/printf
+/bin/split
+/sbin/udhcpc
+/bin/wget

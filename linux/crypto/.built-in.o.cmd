@@ -1,0 +1,1 @@
+cmd_crypto/built-in.o :=  mips-linux-uclibc-ld  -m elf32btsmip  -r -o crypto/built-in.o crypto/api.o crypto/scatterwalk.o crypto/cipher.o crypto/digest.o crypto/compress.o crypto/crypto_algapi.o crypto/blkcipher.o crypto/cryptomgr.o crypto/md5.o crypto/sha1.o crypto/ecb.o crypto/aes.o crypto/arc4.o crypto/michael_mic.o

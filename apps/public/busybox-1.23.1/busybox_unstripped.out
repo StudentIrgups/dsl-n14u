@@ -1,0 +1,756 @@
+Output of:
+mips-linux-uclibc-gcc -Wall -Wshadow -Wwrite-strings -Wundef -Wstrict-prototypes -Wunused -Wunused-parameter -Wunused-function -Wunused-value -Wmissing-prototypes -Wmissing-declarations -Wno-format-security -Wdeclaration-after-statement -Wold-style-definition -fno-builtin-strlen -finline-limit=0 -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-guess-branch-probability -funsigned-char -static-libgcc -falign-functions=1 -falign-jumps=1 -falign-labels=1 -falign-loops=1 -fno-unwind-tables -fno-asynchronous-unwind-tables -Os -DLINUX26 -DTCSUPPORT_CPU_RT63365 -DTC3262 -DTCSUPPORT_REAL_RT63365 -DTCSUPPORT_WAN_ATM -DTCSUPPORT_WAN_ETHER_LAN -DSTART_ADDR=0x80002000 -DTCSUPPORT_FREE_BOOTBASE -DTR068_LED -DTCSUPPORT_WLAN -DWSC_AP_SUPPORT -DLED_WPSSPEC_COMPLY -DIGMP_SNOOP_SUPPORT -DTCSUPPORT_WLAN_GPIO -DRT5392 -DBBUTOWBU -DTCSUPPORT_MTK_INTERNAL_ETHER_SWITCH -DTCSUPPORT_USBHOST -DRTCONFIG_USB -DTCSUPPORT_USB_NTFS_UFSD -DUSB_AUTOMOUNT -DTCSUPPORT_USB_3G_DONGLE -DRTCONFIG_USB_MODEM -DRTCONFIG_USB_MODEM_PIN -DCMD_API -DTCSUPPORT_RA_HWNAT -I/home/alex/n14u/dsl-n14u_gpl/modules/private/ra_hwnat -DTCSUPPORT_IPV6 -DIPV6 -DTCSUPPORT_IPV6_ENHANCEMENT -DTCSUPPORT_DSLITE -DTCSUPPORT_6RD -DTCSUPPORT_OPT212 -DTCSUPPORT_IPV6_ADVANCE -DTCSUPPORT_IPV6_FIREWALL -DTCSUPPORT_TCP6_SYN_COOKIE -DTCSUPPORT_IPV6_FIREWALL_RFC2827 -DTCSUPPORT_IPV6_TELNET -DTCSUPPORT_IPV6_TFTP -DTCSUPPORT_IPV6_FTP -DTCSUPPORT_IPV6_INETD -DTCSUPPORT_DOWNSTREAM_QOS -DTCSUPPORT_QOS -DCONFIG_QOS -DTCSUPPORT_IGMP_QOS -DTCSUPPORT_PORTBIND -DTCSUPPORT_VLAN_TAG -DSTATIC_DHCP -DDHCP_PROFILE -DTCSUPPORT_MLD_SNOOPING -DTCSUPPORT_MLD_PROXY -DTCSUPPORT_IGMP_SNOOPING -DTCSUPPORT_IGMP_PROXY_V3 -DTCSUPPORT_IGMP_PROXY_V3_OPEN -DTCSUPPORT_LEDKEY -DTCSUPPORT_IGMP_SNOOPING_V3 -DTCSUPPORT_MTD_ENCHANCEMENT -DTCSUPPORT_RESERVEAREA_BLOCK=4 -DTCSUPPORT_BACKUPROMFILE -DTCSUPPORT_UNIQUEMAC -DTCSUPPORT_WEB_SAVE -DTCSUPPORT_MODEL_CHECK -DTCSUPPORT_FILTER_DSCP -DTCSUPPORT_DHCP_PORT_FLT -DTCSUPPORT_PPP_AUTHEN -DTCSUPPORT_UPNP -DTCSUPPORT_UPNP_CERT -DTCSUPPORT_SYSLOG_ENHANCE -DTCSUPPORT_PORT_TRIGGER -DTCSUPPORT_IMPROVE_GUI_PERFM -DTCSUPPORT_WEB_CFG_NODE -DTCSUPPORT_WEB_TMP_NODE -DTCSUPPORT_IMPROVE_GUI_PERFM -DTCSUPPORT_WEB_CFG_NODE -DTCSUPPORT_WEB_TMP_NODE -DTCSUPPORT_WLAN_8021X -DTCSUPPORT_WLAN_8021X_EXT -DTCSUPPORT_WLAN_8021X_EXT_SHOW_MAC -DTCSUPPORT_WLAN_WDS -DWDS_SUPPORT=1 -DTCSUPPORT_PORT_TRIGGER -DTCSUPPORT_WEBSERVER_SSL -DTCSUPPORT_SSH -DRTCONFIG_SSH -DTCSUPPORT_FW_UPGRADE_16M -DTCSUPPORT_REMOTE_SYSLOG -DTCSUPPORT_GENERAL_MULTILANGUAGE -DRA_PARENTALCONTROL -DTCSUPPORT_PARENTAL_URLBLOCK -DRA_ETHERMEDIATYPE -DTCSUPPORT_SYSLOG -DTCSUPPORT_BRIDGE_FASTPATH -DTCSUPPORT_SAMBA -DRTCONFIG_SAMBASRV -DRTCONFIG_FTP -DTCSUPPORT_RA_GUI -DTCSUPPORT_LED_BTN_CHECK -DTCSUPPORT_LED_CHECK -DTCSUPPORT_BTN_CHECK -DTCSUPPORT_WLAN_WPS_SHARE_BTN -DTCSUPPORT_MEMORY_CONTROL -DTCSUPPORT_TFTP_UPGRADE_PROTECT -DTCSUPPORT_MODEL_NAME_CUSKIT -DTCSUPPORT_VPN_SWITCH_GUI -DTCSUPPORT_WPA_SUPPLICANT -DTCSUPPORT_TEST_LED_ALL -DTCSUPPORT_WLAN_MAXSTANUM_GUI -DTCSUPPORT_SHARE_PVC -DRTCONFIG_APP_PREINSTALLED -DRTCONFIG_WEBDAV -DRTCONFIG_CLOUDSYNC -DRTCONFIG_WEBSTORAGE -DRTCONFIG_SAMBA_CLIENT -DRTCONFIG_DROPBOX_CLIENT -DRTCONFIG_USB_CLIENT -DRTCONFIG_SHP -DTCSUPPORT_SWAP_FILE -DRTCONFIG_ACCEL_PPTPD -DRTCONFIG_SPECTRUM -DRTCONFIG_SYSSTATE -DRTCONFIG_VPNC -DRTCONFIG_DUALWAN -DRTCONFIG_PROTECTION_SERVER -DASUS_CFGMGR_RESTART -DRTCONFIG_ARPSTORM -DASUS_BUSYBOX_NEW -DRTCONFIG_USER_LOW_RSSI -DTCSUPPORT_EDCCA -DASUS_DISK_UTILITY -DTCSUPPORT_REBOOT_SCHEDULE -DTCSUPPORT_DSL_LINE_DIAGNOSTIC -DTCSUPPORT_WEBMON -DASUS_LOGIN_SESSION -DRTCONFIG_PUSH_EMAIL -DDSL_N14U -DPRODUCTNAME='DSL-N14U' -DDEBUG_NOISY -static -o busybox_unstripped -Wl,--sort-common -Wl,--sort-section,alignment -Wl,--gc-sections -Wl,--start-group applets/built-in.o archival/lib.a archival/libarchive/lib.a console-tools/lib.a coreutils/lib.a coreutils/libcoreutils/lib.a debianutils/lib.a e2fsprogs/lib.a editors/lib.a findutils/lib.a init/lib.a libbb/lib.a libpwdgrp/lib.a loginutils/lib.a mailutils/lib.a miscutils/lib.a modutils/lib.a networking/lib.a networking/libiproute/lib.a networking/udhcp/lib.a printutils/lib.a procps/lib.a runit/lib.a selinux/lib.a shell/lib.a sysklogd/lib.a util-linux/lib.a util-linux/volume_id/lib.a archival/built-in.o archival/libarchive/built-in.o console-tools/built-in.o coreutils/built-in.o coreutils/libcoreutils/built-in.o debianutils/built-in.o e2fsprogs/built-in.o editors/built-in.o findutils/built-in.o init/built-in.o libbb/built-in.o libpwdgrp/built-in.o loginutils/built-in.o mailutils/built-in.o miscutils/built-in.o modutils/built-in.o networking/built-in.o networking/libiproute/built-in.o networking/udhcp/built-in.o printutils/built-in.o procps/built-in.o runit/built-in.o selinux/built-in.o shell/built-in.o sysklogd/built-in.o util-linux/built-in.o util-linux/volume_id/built-in.o -Wl,--end-group -Wl,--start-group -Wl,--end-group -Wl,--warn-common -Wl,-Map,busybox_unstripped.map -Wl,--verbose
+==========
+GNU ld (GNU Binutils) 2.19.1
+  Supported emulations:
+   elf32btsmip
+   elf32ltsmip
+   elf32btsmipn32
+   elf64btsmip
+   elf32ltsmipn32
+   elf64ltsmip
+using internal linker script:
+==================================================
+/* Script for -z combreloc: combine and sort reloc sections */
+OUTPUT_FORMAT("elf32-tradbigmips", "elf32-tradbigmips",
+	      "elf32-tradlittlemips")
+OUTPUT_ARCH(mips)
+ENTRY(__start)
+SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+SECTIONS
+{
+  /* Read-only sections, merged into text segment: */
+  PROVIDE (__executable_start = 0x0400000); . = 0x0400000 + SIZEOF_HEADERS;
+  .interp         : { *(.interp) }
+  .reginfo        : { *(.reginfo) }
+  .note.gnu.build-id : { *(.note.gnu.build-id) }
+  .dynamic        : { *(.dynamic) }
+  .hash           : { *(.hash) }
+  .gnu.hash       : { *(.gnu.hash) }
+  .dynsym         : { *(.dynsym) }
+  .dynstr         : { *(.dynstr) }
+  .gnu.version    : { *(.gnu.version) }
+  .gnu.version_d  : { *(.gnu.version_d) }
+  .gnu.version_r  : { *(.gnu.version_r) }
+  .rel.dyn        :
+    {
+      *(.rel.init)
+      *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+      *(.rel.fini)
+      *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+      *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+      *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+      *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+      *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+      *(.rel.ctors)
+      *(.rel.dtors)
+      *(.rel.got)
+      *(.rel.dyn)
+      *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+      *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+      *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+      *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+      *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+    }
+  .rela.dyn       :
+    {
+      *(.rela.init)
+      *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+      *(.rela.fini)
+      *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+      *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+      *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+      *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+      *(.rela.ctors)
+      *(.rela.dtors)
+      *(.rela.got)
+      *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+      *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+      *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+      *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+      *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+    }
+  .rel.plt        : { *(.rel.plt) }
+  .rela.plt       : { *(.rela.plt) }
+  .init           :
+  {
+    KEEP (*(.init))
+  } =0
+  .plt            : { *(.plt) }
+  .text           :
+  {
+    _ftext = . ;
+    *(.text .stub .text.* .gnu.linkonce.t.*)
+    /* .gnu.warning sections are handled specially by elf32.em.  */
+    *(.gnu.warning)
+    *(.mips16.fn.*) *(.mips16.call.*)
+  } =0
+  .fini           :
+  {
+    KEEP (*(.fini))
+  } =0
+  PROVIDE (__etext = .);
+  PROVIDE (_etext = .);
+  PROVIDE (etext = .);
+  .rodata         : { *(.rodata .rodata.* .gnu.linkonce.r.*) }
+  .rodata1        : { *(.rodata1) }
+  .sdata2         :
+  {
+    *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+  }
+  .sbss2          : { *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*) }
+  .eh_frame_hdr : { *(.eh_frame_hdr) }
+  .eh_frame       : ONLY_IF_RO { KEEP (*(.eh_frame)) }
+  .gcc_except_table   : ONLY_IF_RO { *(.gcc_except_table .gcc_except_table.*) }
+  /* Adjust the address for the data segment.  We want to adjust up to
+     the same address within the page on the next page up.  */
+  . = ALIGN (CONSTANT (MAXPAGESIZE)) - ((CONSTANT (MAXPAGESIZE) - .) & (CONSTANT (MAXPAGESIZE) - 1)); . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE));
+  /* Exception handling  */
+  .eh_frame       : ONLY_IF_RW { KEEP (*(.eh_frame)) }
+  .gcc_except_table   : ONLY_IF_RW { *(.gcc_except_table .gcc_except_table.*) }
+  /* Thread Local Storage sections  */
+  .tdata	  : { *(.tdata .tdata.* .gnu.linkonce.td.*) }
+  .tbss		  : { *(.tbss .tbss.* .gnu.linkonce.tb.*) *(.tcommon) }
+  .preinit_array     :
+  {
+    PROVIDE_HIDDEN (__preinit_array_start = .);
+    KEEP (*(.preinit_array))
+    PROVIDE_HIDDEN (__preinit_array_end = .);
+  }
+  .init_array     :
+  {
+     PROVIDE_HIDDEN (__init_array_start = .);
+     KEEP (*(SORT(.init_array.*)))
+     KEEP (*(.init_array))
+     PROVIDE_HIDDEN (__init_array_end = .);
+  }
+  .fini_array     :
+  {
+    PROVIDE_HIDDEN (__fini_array_start = .);
+    KEEP (*(.fini_array))
+    KEEP (*(SORT(.fini_array.*)))
+    PROVIDE_HIDDEN (__fini_array_end = .);
+  }
+  .ctors          :
+  {
+    /* gcc uses crtbegin.o to find the start of
+       the constructors, so we make sure it is
+       first.  Because this is a wildcard, it
+       doesn't matter if the user does not
+       actually link against crtbegin.o; the
+       linker won't look for a file to match a
+       wildcard.  The wildcard also means that it
+       doesn't matter which directory crtbegin.o
+       is in.  */
+    KEEP (*crtbegin.o(.ctors))
+    KEEP (*crtbegin?.o(.ctors))
+    /* We don't want to include the .ctor section from
+       the crtend.o file until after the sorted ctors.
+       The .ctor section from the crtend file contains the
+       end of ctors marker and it must be last */
+    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .ctors))
+    KEEP (*(SORT(.ctors.*)))
+    KEEP (*(.ctors))
+  }
+  .dtors          :
+  {
+    KEEP (*crtbegin.o(.dtors))
+    KEEP (*crtbegin?.o(.dtors))
+    KEEP (*(EXCLUDE_FILE (*crtend.o *crtend?.o ) .dtors))
+    KEEP (*(SORT(.dtors.*)))
+    KEEP (*(.dtors))
+  }
+  .jcr            : { KEEP (*(.jcr)) }
+  .data.rel.ro : { *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*) *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*) }
+  . = DATA_SEGMENT_RELRO_END (0, .);
+  .data           :
+  {
+    _fdata = . ;
+    *(.data .data.* .gnu.linkonce.d.*)
+    SORT(CONSTRUCTORS)
+  }
+  .data1          : { *(.data1) }
+  .got.plt        : { *(.got.plt) }
+  . = .;
+  _gp = ALIGN(16) + 0x7ff0;
+  .got            : { *(.got) }
+  /* We want the small data sections together, so single-instruction offsets
+     can access them all, and initialized data all before uninitialized, so
+     we can shorten the on-disk segment size.  */
+  .sdata          :
+  {
+    *(.sdata .sdata.* .gnu.linkonce.s.*)
+  }
+  .lit8           : { *(.lit8) }
+  .lit4           : { *(.lit4) }
+  _edata = .; PROVIDE (edata = .);
+  __bss_start = .;
+  _fbss = .;
+  .sbss           :
+  {
+    *(.dynsbss)
+    *(.sbss .sbss.* .gnu.linkonce.sb.*)
+    *(.scommon)
+  }
+  .bss            :
+  {
+   *(.dynbss)
+   *(.bss .bss.* .gnu.linkonce.b.*)
+   *(COMMON)
+   /* Align here to ensure that the .bss section occupies space up to
+      _end.  Align after .bss to ensure correct alignment even if the
+      .bss section disappears because there are no input sections.
+      FIXME: Why do we need it? When there is no .bss section, we don't
+      pad the .data section.  */
+   . = ALIGN(. != 0 ? 32 / 8 : 1);
+  }
+  . = ALIGN(32 / 8);
+  . = ALIGN(32 / 8);
+  _end = .; PROVIDE (end = .);
+  . = DATA_SEGMENT_END (.);
+  /* Stabs debugging sections.  */
+  .stab          0 : { *(.stab) }
+  .stabstr       0 : { *(.stabstr) }
+  .stab.excl     0 : { *(.stab.excl) }
+  .stab.exclstr  0 : { *(.stab.exclstr) }
+  .stab.index    0 : { *(.stab.index) }
+  .stab.indexstr 0 : { *(.stab.indexstr) }
+  .comment       0 : { *(.comment) }
+  /* DWARF debug sections.
+     Symbols in the DWARF debugging sections are relative to the beginning
+     of the section so we begin them at 0.  */
+  /* DWARF 1 */
+  .debug          0 : { *(.debug) }
+  .line           0 : { *(.line) }
+  /* GNU DWARF 1 extensions */
+  .debug_srcinfo  0 : { *(.debug_srcinfo) }
+  .debug_sfnames  0 : { *(.debug_sfnames) }
+  /* DWARF 1.1 and DWARF 2 */
+  .debug_aranges  0 : { *(.debug_aranges) }
+  .debug_pubnames 0 : { *(.debug_pubnames) }
+  /* DWARF 2 */
+  .debug_info     0 : { *(.debug_info .gnu.linkonce.wi.*) }
+  .debug_abbrev   0 : { *(.debug_abbrev) }
+  .debug_line     0 : { *(.debug_line) }
+  .debug_frame    0 : { *(.debug_frame) }
+  .debug_str      0 : { *(.debug_str) }
+  .debug_loc      0 : { *(.debug_loc) }
+  .debug_macinfo  0 : { *(.debug_macinfo) }
+  /* SGI/MIPS DWARF 2 extensions */
+  .debug_weaknames 0 : { *(.debug_weaknames) }
+  .debug_funcnames 0 : { *(.debug_funcnames) }
+  .debug_typenames 0 : { *(.debug_typenames) }
+  .debug_varnames  0 : { *(.debug_varnames) }
+  /* DWARF 3 */
+  .debug_pubtypes 0 : { *(.debug_pubtypes) }
+  .debug_ranges   0 : { *(.debug_ranges) }
+  .gnu.attributes 0 : { KEEP (*(.gnu.attributes)) }
+  .gptab.sdata : { *(.gptab.data) *(.gptab.sdata) }
+  .gptab.sbss : { *(.gptab.bss) *(.gptab.sbss) }
+  .mdebug.abi32 : { KEEP(*(.mdebug.abi32)) }
+  .mdebug.abiN32 : { KEEP(*(.mdebug.abiN32)) }
+  .mdebug.abi64 : { KEEP(*(.mdebug.abi64)) }
+  .mdebug.abiO64 : { KEEP(*(.mdebug.abiO64)) }
+  .mdebug.eabi32 : { KEEP(*(.mdebug.eabi32)) }
+  .mdebug.eabi64 : { KEEP(*(.mdebug.eabi64)) }
+  .gcc_compiled_long32 : { KEEP(*(.gcc_compiled_long32)) }
+  .gcc_compiled_long64 : { KEEP(*(.gcc_compiled_long64)) }
+  /DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) }
+}
+
+
+==================================================
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/lib/crt1.o succeeded
+/opt/trendchip/mips-linux-uclibc/usr/lib/crt1.o
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/lib/crti.o succeeded
+/opt/trendchip/mips-linux-uclibc/usr/lib/crti.o
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/crtbeginT.o succeeded
+/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/crtbeginT.o
+attempt to open applets/built-in.o succeeded
+applets/built-in.o
+attempt to open archival/lib.a succeeded
+attempt to open archival/libarchive/lib.a succeeded
+attempt to open console-tools/lib.a succeeded
+attempt to open coreutils/lib.a succeeded
+attempt to open coreutils/libcoreutils/lib.a succeeded
+attempt to open debianutils/lib.a succeeded
+attempt to open e2fsprogs/lib.a succeeded
+attempt to open editors/lib.a succeeded
+attempt to open findutils/lib.a succeeded
+attempt to open init/lib.a succeeded
+attempt to open libbb/lib.a succeeded
+(libbb/lib.a)appletlib.o
+(libbb/lib.a)concat_path_file.o
+(libbb/lib.a)default_error_retval.o
+(libbb/lib.a)get_last_path_component.o
+(libbb/lib.a)last_char_is.o
+(libbb/lib.a)llist.o
+(libbb/lib.a)messages.o
+(libbb/lib.a)perror_msg.o
+(libbb/lib.a)ptr_to_globals.o
+(libbb/lib.a)skip_whitespace.o
+(libbb/lib.a)verror_msg.o
+(libbb/lib.a)wfopen.o
+(libbb/lib.a)xfunc_die.o
+(libbb/lib.a)xfuncs.o
+(libbb/lib.a)xfuncs_printf.o
+(libbb/lib.a)xreadlink.o
+(libbb/lib.a)copyfd.o
+(libbb/lib.a)full_write.o
+(libbb/lib.a)read.o
+(libbb/lib.a)safe_write.o
+(libbb/lib.a)time.o
+(libbb/lib.a)bb_strtonum.o
+attempt to open libpwdgrp/lib.a succeeded
+(libpwdgrp/lib.a)uidgid_get.o
+attempt to open loginutils/lib.a succeeded
+attempt to open mailutils/lib.a succeeded
+attempt to open miscutils/lib.a succeeded
+attempt to open modutils/lib.a succeeded
+attempt to open networking/lib.a succeeded
+(networking/lib.a)ether-wake.o
+(networking/lib.a)wget.o
+attempt to open networking/libiproute/lib.a succeeded
+attempt to open networking/udhcp/lib.a succeeded
+(networking/udhcp/lib.a)dhcpc.o
+(networking/udhcp/lib.a)domain_codec.o
+(networking/udhcp/lib.a)packet.o
+(networking/udhcp/lib.a)signalpipe.o
+(networking/udhcp/lib.a)socket.o
+(networking/udhcp/lib.a)arpping.o
+(networking/udhcp/lib.a)common.o
+attempt to open printutils/lib.a succeeded
+attempt to open procps/lib.a succeeded
+attempt to open runit/lib.a succeeded
+attempt to open selinux/lib.a succeeded
+attempt to open shell/lib.a succeeded
+attempt to open sysklogd/lib.a succeeded
+attempt to open util-linux/lib.a succeeded
+(util-linux/lib.a)fatattr.o
+(util-linux/lib.a)flock.o
+attempt to open util-linux/volume_id/lib.a succeeded
+attempt to open archival/built-in.o succeeded
+attempt to open archival/libarchive/built-in.o succeeded
+attempt to open console-tools/built-in.o succeeded
+attempt to open coreutils/built-in.o succeeded
+attempt to open coreutils/libcoreutils/built-in.o succeeded
+attempt to open debianutils/built-in.o succeeded
+attempt to open e2fsprogs/built-in.o succeeded
+attempt to open editors/built-in.o succeeded
+attempt to open findutils/built-in.o succeeded
+attempt to open init/built-in.o succeeded
+attempt to open libbb/built-in.o succeeded
+attempt to open libpwdgrp/built-in.o succeeded
+attempt to open loginutils/built-in.o succeeded
+attempt to open mailutils/built-in.o succeeded
+attempt to open miscutils/built-in.o succeeded
+attempt to open modutils/built-in.o succeeded
+attempt to open networking/built-in.o succeeded
+attempt to open networking/libiproute/built-in.o succeeded
+attempt to open networking/udhcp/built-in.o succeeded
+attempt to open printutils/built-in.o succeeded
+attempt to open procps/built-in.o succeeded
+attempt to open runit/built-in.o succeeded
+attempt to open selinux/built-in.o succeeded
+attempt to open shell/built-in.o succeeded
+attempt to open sysklogd/built-in.o succeeded
+attempt to open util-linux/built-in.o succeeded
+attempt to open util-linux/volume_id/built-in.o succeeded
+(archival/lib.a)bbunzip.o
+(archival/lib.a)gzip.o
+(archival/libarchive/lib.a)decompress_bunzip2.o
+(archival/libarchive/lib.a)decompress_gunzip.o
+(archival/libarchive/lib.a)open_transformer.o
+(coreutils/lib.a)nice.o
+(coreutils/lib.a)printf.o
+(coreutils/lib.a)shuf.o
+(coreutils/lib.a)split.o
+(coreutils/lib.a)unlink.o
+(findutils/lib.a)grep.o
+(libbb/lib.a)bb_pwd.o
+(libbb/lib.a)compare_string_array.o
+(libbb/lib.a)crc32.o
+(libbb/lib.a)executable.o
+(libbb/lib.a)fclose_nonstdin.o
+(libbb/lib.a)fflush_stdout_and_exit.o
+(libbb/lib.a)get_line_from_file.o
+(libbb/lib.a)getopt32.o
+(libbb/lib.a)inet_cksum.o
+(libbb/lib.a)info_msg.o
+(libbb/lib.a)percent_decode.o
+(libbb/lib.a)perror_nomsg_and_die.o
+(libbb/lib.a)pidfile.o
+(libbb/lib.a)process_escape_sequence.o
+(libbb/lib.a)progress.o
+(libbb/lib.a)recursive_action.o
+(libbb/lib.a)safe_poll.o
+(libbb/lib.a)safe_strncpy.o
+(libbb/lib.a)signals.o
+(libbb/lib.a)str_tolower.o
+(libbb/lib.a)unicode.o
+(libbb/lib.a)uuencode.o
+(libbb/lib.a)vfork_daemon_rexec.o
+(libbb/lib.a)wfopen_input.o
+(libbb/lib.a)xatonum.o
+(libbb/lib.a)xconnect.o
+(libbb/lib.a)xrealloc_vector.o
+(libbb/lib.a)xregcomp.o
+(libbb/lib.a)concat_subpath_file.o
+(libbb/lib.a)printable_string.o
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a succeeded
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_udivdi3.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_clz.o
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc_eh.a succeeded
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libc.a failed
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/libc.a failed
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/../../../../mips-linux-uclibc/lib/libc.a failed
+attempt to open /opt/trendchip/mips-linux-uclibc/lib/libc.a failed
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/lib/libc.a succeeded
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigaction.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)bsd-_setjmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setjmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)pipe.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)access.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)alarm.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)chdir.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)chroot.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)close.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)cmsg_nxthdr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)dup2.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)dup.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_exit.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)flock.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fork.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fstat64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ftruncate64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getegid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)geteuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getgid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpriority.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)gettimeofday.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ioctl.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)link.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)llseek.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)longjmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)lstat64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)open64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)open.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)poll.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)read.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)readlink.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)rename.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)select.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sendfile64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setegid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)seteuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setgid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setpriority.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setregid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setresgid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setresuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setreuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setsid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigprocmask.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigsuspend.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)stat64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)symlink.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__syscall_fcntl64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__syscall_rt_sigaction.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)time.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)unlink.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)utimes.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)vfork.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wait.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)waitpid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)write.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)xstatconv.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)closedir.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)opendir.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)readdir64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__errno_location.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)regex.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)syslog.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ctime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)localtime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)localtime_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mktime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strftime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strptime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)tzset.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__time_tm.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_time_mktime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_time_mktime_tzi.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_time_localtime_tzi.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)btowc.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mbsinit.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mbrtowc.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wcrtomb.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mbsnrtowcs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wcsnrtombs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)iswalnum.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)iswlower.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wctype.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)iswctype.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)towlower.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)towupper.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getgrgid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getgrgid_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getgrnam.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getgrnam_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpwnam.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpwnam_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpwuid.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpwuid_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__parsegrent.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__parsepwent.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__pgsreader.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fclose.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fdopen.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fopen.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)puts.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setlinebuf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setvbuf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)printf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fprintf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sprintf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)vasprintf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)vsnprintf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fopen64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_fopen.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_stdio.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_wcommit.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_cs_funcs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_uintmaxtostr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)open_memstream.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)vfprintf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_vfprintf_internal.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_ppfs_init.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_ppfs_prepargs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_ppfs_setargs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_ppfs_parsespec.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sscanf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)vsscanf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)clearerr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)feof.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ferror.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fflush.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fileno.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fputs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fread.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fwrite.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fflush_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fgetc_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fgets_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fileno_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fputc_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fputs_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fread_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fwrite_unlocked.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__glibc_strerror_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)memchr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)memcmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)memcpy.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)memmove.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mempcpy.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)memset.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strcasecmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strcasestr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strchr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strchrnul.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strcmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strcpy.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strdup.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strerror.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strlen.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strncasecmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strncmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strncpy.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strnlen.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strrchr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strstr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtok.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtok_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__xpg_strerror_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wcscmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)isatty.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)tcgetattr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)tcsetattr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ttyname.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getservice.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getaddrinfo.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ether_addr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ifaddrs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ntop.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)in6_addr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)inet_aton.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)inet_ntoa.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)inet_makeaddr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getnameinfo.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)gethostbyname2_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)gethostbyaddr_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ethers.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)bind.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)connect.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpeername.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getsockname.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)listen.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)recvmsg.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sendto.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setsockopt.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)socket.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)socketpair.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)raise.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigaddset.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigempty.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)signal.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigsetops.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)malloc.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)calloc.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)realloc.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)free.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mallopt.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)abort.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getenv.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)realpath.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)rand.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)random.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)random_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setenv.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mkstemp64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)atol.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtol.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtoul.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_stdlib_strto_l.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)bsearch.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtoll.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtoull.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_stdlib_strto_ll.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_stdlib_mb_cur_max.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strtod.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__strtofpmax.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__fp_range_check.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)exit.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)execvp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getopt.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sleep.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sysconf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__uClibc_main.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__longjmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)setjmp_aux.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mmap.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__syscall_error.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)clock_getres.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)execve.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fstat.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getcwd.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getdents64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getdomainname.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getdtablesize.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getpagesize.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getrlimit.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)kill.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)lstat.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mremap.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)munmap.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)nanosleep.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sbrk.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__syscall_fcntl.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)uname.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wait4.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)tolower.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)toupper.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__C_ctype_b.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__C_ctype_tolower.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__C_ctype_toupper.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)readdir.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)tempname.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)errno.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__h_errno_location.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)nl_langinfo.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)asctime.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)asctime_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_time_t2tm.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)wcsrtombs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)rewind.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)snprintf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_READ.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_WRITE.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_fwrite.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_rfill.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_trans2r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_trans2w.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_load_inttype.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_store_inttype.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_fpmaxtostr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fopencookie.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)vfscanf.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__scan_cookie.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__psfs_parse_spec.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__psfs_do_numeric.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fgets.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)memrchr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_string_syserrmsgs.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strndup.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strpbrk.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strspn.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)if_index.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)decoded.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)dnslookup.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)opennameservers.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)gethostbyaddr.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)get_hosts_byname_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)get_hosts_byaddr_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)gethostbyname_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)recv.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)send.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)opensock.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)sigjmp.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)brk.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)getdents.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)mkdir.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)stat.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)__assert.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fseeko.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)ungetc.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)fseeko64.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)_adjust_pos.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)strncat.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)encodeh.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)decodeh.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)encodeq.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)lengthq.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)decodea.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)read_etc_hosts_r.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)encoded.os
+(/opt/trendchip/mips-linux-uclibc/usr/lib/libc.a)lengthd.os
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_fixunsdfsi.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_addsub_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_mul_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_div_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_eq_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_ne_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_ge_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_lt_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_si_to_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_df_to_si.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_df_to_sf.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_thenan_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_usi_to_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_lshrdi3.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_ashldi3.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_ucmpdi2.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_clzsi2.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_make_sf.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_pack_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_unpack_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_fpcmp_parts_df.o
+(/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/libgcc.a)_pack_sf.o
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/crtend.o succeeded
+/opt/trendchip/mips-linux-uclibc/usr/bin/../lib/gcc/mips-linux-uclibc/4.3.4/crtend.o
+attempt to open /opt/trendchip/mips-linux-uclibc/usr/lib/crtn.o succeeded
+/opt/trendchip/mips-linux-uclibc/usr/lib/crtn.oarchival/lib.a(bbunzip.o): In function `bbunpack':
+bbunzip.c:(.text.bbunpack+0x26c): warning: the use of LEGACY `utimes' is discouraged, use `utime'
+

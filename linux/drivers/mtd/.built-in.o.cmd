@@ -1,0 +1,1 @@
+cmd_drivers/mtd/built-in.o :=  mips-linux-uclibc-ld  -m elf32btsmip  -r -o drivers/mtd/built-in.o drivers/mtd/mtd.o drivers/mtd/mtdchar.o drivers/mtd/mtd_blkdevs.o drivers/mtd/mtdblock.o drivers/mtd/chips/built-in.o drivers/mtd/ralink/built-in.o drivers/mtd/maps/built-in.o drivers/mtd/devices/built-in.o drivers/mtd/nand/built-in.o drivers/mtd/onenand/built-in.o
